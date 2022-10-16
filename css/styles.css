@@ -1,0 +1,150 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-size: 5.625rem;
+  margin-top:50px;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Montserrat Alternates', sans-serif;
+  color:#11999E;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  color:#EAF6F6;
+  width: 5%;
+  margin: 100px auto;
+}
+p{
+  line-height: 2;
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.pro{
+  text-decoration:underline;
+}
+.top-container{
+  background-color: #C8FFD4;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+background-color: #B8E8FC;
+padding: 100px 0 100px 0;
+}
+.bottom-container{
+background-color: #66BFBF;
+padding: 30px 0 30px 0;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom:300px;
+}
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top:50px;
+}
+
+/**************************Profile**************************** */
+.linkedin{
+  background: none;
+  border-style: none;
+  color:#11999E;
+  font-family: 'Merriweather', serif;
+  font-size:20px;
+  padding: 10px 20px 10px 20px;
+}
+.linkedin:hover{
+  cursor: pointer;
+  color: #C8FFD4;
+  text-decoration: none;
+}
+.instagram{
+  background: none;
+  border-style: none;
+  color:#11999E;
+  font-family: 'Merriweather', serif;
+  font-size:20px;
+  padding: 10px 20px 10px 20px;
+}
+.instagram:hover{
+  cursor: pointer;
+  color: #C8FFD4;
+  text-decoration: none;
+}
+.website{
+  background: none;
+  border-style: none;
+  color:#11999E;
+  font-family: 'Merriweather', serif;
+  font-size:20px;
+  padding: 10px 20px 10px 20px;
+}
+.website:hover{
+  cursor: pointer;
+  color: #C8FFD4;
+  text-decoration: none;
+}
+.btn {
+  background: #11999E;
+  background-image: linear-gradient(to bottom, #11999E, #11999E);
+  border-radius: 8px;
+  border-style: none;
+  font-family: 'Merriweather', serif;
+  font-size:20px;
+  color: #f2f2f2;
+  padding: 10px 10px 10px 10px;
+
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #11999E;
+  background-image: linear-gradient(to bottom, #11999E, #66BFBF);
+  text-decoration: none;
+}
+.owner{
+  color:#EAF6F6;
+}
+.hello{
+  color:#40514E;
+  width: 30%;
+  margin: auto;
+}
+.man{
+  height: 150px;
+  width:150px;
+  border-radius: 100%;
+}
+.skill1{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill2{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+.something{
+  clear: right;
+}
